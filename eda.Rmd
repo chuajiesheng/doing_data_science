@@ -82,4 +82,5 @@ head(data1)
 clen <- function(x){c(length(x))}
 etable<-summaryBy(Impressions~scode+Gender+agecat,
                   data = data1, FUN=clen)
+Vew(etable)
 ```
